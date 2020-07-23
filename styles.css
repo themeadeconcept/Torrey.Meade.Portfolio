@@ -1,0 +1,197 @@
+
+body {
+  margin: 0; /*brings margin to the ends and over-rides default margin*/
+  text-align: center;
+  color: #006a71;
+  background-color: #ffffdd;
+  font-family: 'Josefin Slab', serif;
+}
+
+hr {
+  border: dotted #d3de32 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+h1 {
+  font-size: 6.25rem;
+  margin: 50px auto 0 auto; /*brings margin to the ends and over-rides default margin*/
+  font-family: 'Amatic SC', cursive;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-family: 'Comfortaa', cursive;
+  margin-top: 0;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Comfortaa', cursive;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #006a71;
+  font-family: 'Amatic SC', cursive;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffdd;
+}
+
+.footer-link {
+  color: #006a71;
+  font-family: 'Amatic SC', cursive;
+  margin: 20px 40px;
+  font-size: 2.5rem;
+  text-decoration: none;
+}
+
+/*classes*/
+.top-container {
+  background-color: #12cad6;
+  position: relative;
+  padding-top: 100px;
+  height: 600px;
+}
+
+.middle-container {
+  margin: 100px 0;
+  position: relative;
+}
+
+.bottom-container {
+  background-color: #d3de32;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 150px auto;
+  text-align: left;
+  padding-bottom: 40px;
+}
+
+.hello {
+  margin-top: 25px;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.aboutme {
+  width: 40%;
+  margin: auto;
+}
+
+.contact-msg {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.pro {
+  text-decoration: underline;
+  font-family: 'Comfortaa', cursive;
+}
+
+.disclaimer {
+  text-decoration: underline;
+  font-family: 'Josefin Slab', serif;
+}
+
+.myphoto {
+  margin-top: 50px;
+}
+
+.sunny {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.ocean {
+  width:80%;
+  position: absolute;
+  bottom: 0;
+  right: 20%;
+}
+
+.bird {
+  width: 10%;
+  position: absolute;
+  right: 30%;
+  top: 40px;
+}
+
+.beach {
+  width: 35%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.dolphin {
+  width: 15%;
+  position: absolute;
+  left: 25%;
+  bottom: 40px;
+}
+
+.college-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.webdev-img {
+  width:25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.programmer-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.palmtree {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.btn {
+  background: #cbeaed;
+  background-image: -webkit-linear-gradient(top, #cbeaed, #12cad6);
+  background-image: -moz-linear-gradient(top, #cbeaed, #12cad6);
+  background-image: -ms-linear-gradient(top, #cbeaed, #12cad6);
+  background-image: -o-linear-gradient(top, #cbeaed, #12cad6);
+  background-image: linear-gradient(to bottom, #cbeaed, #12cad6);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Comfortaa', cursive;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
