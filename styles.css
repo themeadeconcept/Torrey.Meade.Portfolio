@@ -55,7 +55,7 @@ a:hover {
 
 /*classes*/
 .front-title {
-  position: absolute;
+  position: relative;
   z-index: 1; 
 }
 
@@ -172,6 +172,7 @@ a:hover {
   position: absolute;
   right: 0;
   bottom: 0;
+  z-index: 0;
 }
 
 .btn {
