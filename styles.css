@@ -54,22 +54,13 @@ a:hover {
 }
 
 /*classes*/
-.title-div {
-  position: relative;
-  text-align: center;
-}
-
-.title-container {
-  display: inline-block;
-  position: absolute;
-  z-index: 1; 
-}
 
 .top-container {
   background-color: #12cad6;
   position: relative;
   padding-top: 100px;
   height: 600px;
+  z-index: -2
 }
 
 .middle-container {
@@ -126,7 +117,7 @@ a:hover {
   position: absolute;
   top: 0;
   right: 0;
-  z-index: 0;
+  z-index: -1;
 }
 
 .ocean {
