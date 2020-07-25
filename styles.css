@@ -55,6 +55,11 @@ a:hover {
 
 /*classes*/
 
+.title-top {
+  position: relative;
+  z-index: 1;
+}
+
 .top-container {
   background-color: #12cad6;
   position: relative;
@@ -170,7 +175,7 @@ a:hover {
   position: absolute;
   right: 0;
   bottom: 0;
-  z-index: 0;
+  z-index: -1;
 }
 
 .btn {
