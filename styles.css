@@ -54,6 +54,14 @@ a:hover {
 }
 
 /*classes*/
+.title-div {
+  text-align: center;
+}
+
+title-container {
+  display: inline-block;
+}
+
 .front-title {
   position: absolute;
   z-index: 1; 
