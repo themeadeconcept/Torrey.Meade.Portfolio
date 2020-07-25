@@ -54,6 +54,9 @@ a:hover {
 }
 
 /*classes*/
+.front-title {
+  z-index: 1; 
+}
 .top-container {
   background-color: #12cad6;
   position: relative;
