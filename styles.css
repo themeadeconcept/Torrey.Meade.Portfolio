@@ -130,6 +130,7 @@ a:hover {
   position: absolute;
   bottom: 0;
   right: 20%;
+  z-index: -2;
 }
 
 .bird {
