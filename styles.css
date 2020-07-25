@@ -58,7 +58,7 @@ a:hover {
   text-align: center;
 }
 
-title-container {
+.title-container {
   display: inline-block;
   position: absolute;
   z-index: 1; 
